@@ -16,7 +16,7 @@ JVM_ARGUMENTS_RAM="-XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1Heap
 #JVM_ARGUMENTS_RAM="-XX:G1NewSizePercent=40 -XX:G1MaxNewSizePercent=50 -XX:G1HeapRegionSize=16M -XX:G1ReservePercent=15 -XX:InitiatingHeapOccupancyPercent=20"
 
 # Download latest Paper.jar from PaperMC.io
-[ -e paper.jar ] && echo "paper.jar already exists skipping download..." || curl https://papermc.io/api/v1/paper/1.16.5/latest/download -o paper.jar
+[ -e paper.jar ] && echo "paper.jar already exists skipping download..." || curl https://papermc.io/api/v2/paper/1.18/latest/download -o paper.jar
 
 # Starting the server
 echo "Starting the Server."
