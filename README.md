@@ -13,22 +13,28 @@ This contains scripts for both linux and windows to easly lauch minecraft server
 
 2. Then you will have to to is change the amount of ram you would like to use for the server. It is currently set a 1G so please change it to your desired amount.
 
-3. Unless you are using a forge or fabric server you are all done and you can run the script to start the server and pull the needed files.
+3. Unless you are using a paper, forge or fabric server you are all done and you can run the script to start the server and pull the needed files.
  
-
-## Updating the servers
+## Updating The Servers
 
 *Make sure you shut down the server*
 
-  - To upgrade to a newer version of Paper change the version number in the URL in the script to the desired version.
-  Then delete the current .jar file and run the script.
-    - I.E. To go from 1.16.5 to 1.17.1 > .../paper/1.16.5/latest/... -> .../paper/1.17.1/latest/...
+- For Default server JAR remove the JAR file and run the script
 
-  - To upgrade to the newest version of the default server jar just delete the current .jar file and run the script.
+- For the other 3 servers download JAR from their sources and replacing the JAR file in the server directory _make sure the file names are what the script calls for_
 
 
 
-## Forge and Fabric
+## Paper
+
+You will have to download yourself the latest version this server
+
+  - To upgrade to a newer version of Paper move the new JAR into the minecraft folder and remove old JAR
+
+  - [Paper Server](https://papermc.io/downloads)
+
+
+## Forge and Fabric 
 
 You will have to download yourself the latest version of these servers and set the version in the script you will be using. 
 
