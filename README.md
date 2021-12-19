@@ -27,16 +27,14 @@ This contains scripts for both linux and windows to easly lauch minecraft server
 
 ## Paper
 
-You will have to download yourself the latest version this server
-
-  - To upgrade to a newer version of Paper move the new JAR into the minecraft folder and remove old JAR
+You will have to download it yourself to the lastest or what ever version you need
 
   - [Paper Server](https://papermc.io/downloads)
 
 
 ## Forge and Fabric 
 
-You will have to download yourself the latest version of these servers and set the version in the script you will be using. 
+You will have to download it yourself to the lastest or what ever version you need and set the version in the script you will be using. 
 
   - [Fabric Server](https://fabricmc.net/use/?page=server)
 
