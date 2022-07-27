@@ -9,7 +9,7 @@ This contains scripts for both linux and windows to easly lauch minecraft server
 
 ## How to use
 
-1. Copy the script of what ever minecraft version you will be using. Wether the be ```Forge``` ```Fabric``` ```Paper``` or ```Default```. In the case of Paper and Default it will automaticly pull the newest version of those servers. 
+1. Copy the script of what ever minecraft version you will be using. Wether the be ```Forge``` ```Fabric``` ```Paper/Purpur``` ```Craftbukkit/Spigot``` or ```Default```. In the case of Paper and Default it will automaticly pull the newest version of those servers. 
 
 2. Then you will have to to is change the amount of ram you would like to use for the server. It is currently set a 1G so please change it to your desired amount.
 
@@ -17,28 +17,38 @@ This contains scripts for both linux and windows to easly lauch minecraft server
  
 ## Updating The Servers
 
-*Make sure you shut down the server*
+***Make sure you shut down the server***
 
-- For Default server JAR remove the JAR file and run the script
+#### **Default**
 
-- For the other 3 servers download JAR from their sources and replacing the JAR file in the server directory _make sure the file names are what the script calls for_
-
-
-
-## Paper
-
-You will have to download it yourself to the lastest or what ever version you need
-
-  - [Paper Server](https://papermc.io/downloads)
+- Remove the current JAR file and run the script. This will automaticlly update to the newest Minecraft version.
 
 
-## Forge and Fabric 
+### _For the other 4 servers download JAR from their sources and replacing the JAR file in the server directory make sure the file names are what the script calls for_
+
+
+#### **Forge and Fabric** 
 
 You will have to download it yourself to the lastest or what ever version you need and set the version in the script you will be using. 
 
   - [Fabric Server](https://fabricmc.net/use/?page=server)
 
   - [Forge Server](https://files.minecraftforge.net/net/minecraftforge/forge/)
+
+
+#### **Paper/Purpur**
+
+You will have to download it yourself to the lastest or what ever version you need
+
+  - [Paper Server](https://papermc.io/downloads)
+  - [Purpur Server](https://purpurmc.org/downloads)
+
+#### **Craftbukkit/Spigot**
+
+You will have to download it yourself to the lastest or what ever version you need
+
+  - [Craftbukkit Server](https://getbukkit.org/download/craftbukkit) 
+  - [Spigot Server](https://getbukkit.org/download/spigot)
 
 # EULA
 This script pull a file that has already set the EULA to true. 
