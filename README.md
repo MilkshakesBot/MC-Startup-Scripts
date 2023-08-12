@@ -1,5 +1,7 @@
 # MC Startup Scripts
 
+- This project is on the backburner as I dont play minecraft as much anymore. However these scripts should work with minor changes for new versions of each server.
+
 This contains scripts for both linux and windows to easly lauch minecraft server. This has tested to work on Windows 10 and Ubuntu. These scripts already have the modifided java arguments from [Aikar](https://aikar.co/2018/07/02/tuning-the-jvm-g1gc-garbage-collector-flags-for-minecraft/).
 
 #### Requirements
